@@ -7,4 +7,4 @@ run:
 	./venv/bin/python3 hooker.py
 
 test:
-	curl -X POST -u username:password http://localhost:8082/restart_script
+	curl -X POST -u username:password http://localhost:8090/restart_script
